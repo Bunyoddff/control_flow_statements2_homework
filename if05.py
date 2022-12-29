@@ -6,4 +6,6 @@ def main(n):
     Returns:
         int: return answer.
     """
-    return
+    s=max(str(n))
+    return s
+print(main(23546))
