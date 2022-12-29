@@ -8,4 +8,7 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    
+    s=min(a,b,c)
+    return s
+#print(main(-5,-3,-1))
