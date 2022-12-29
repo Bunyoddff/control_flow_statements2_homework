@@ -14,4 +14,7 @@ def main(number):
     Returns:
         str: return answer.
     """
-    return
+    week=["Monday","Toesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+
+    return week[number-1]
+print(main(2))
