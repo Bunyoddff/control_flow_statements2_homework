@@ -16,6 +16,8 @@ def main(a,b,c):
         return a
         if b==c:
             return c
+        elif a==c:
+            return a
 
     else:
         return c    
