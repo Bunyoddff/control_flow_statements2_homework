@@ -8,4 +8,6 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    s=max(a,b,c)
+    return s
+#print(main(1,4,2))
