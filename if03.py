@@ -14,5 +14,9 @@ def main(a,b,c):
         return a
     elif a<c<b or b<c<a or a>c>b or b>c>a:
         return c
+    elif a==b!=c:
+        return b
+    elif a==c!=b:
+        return c
      
-print(main(5,7,2))
+print(main(5,5,-1))
